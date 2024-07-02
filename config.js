@@ -5,14 +5,14 @@ if (fs.existsSync(".env"))
 
 //=======[dependencies]====================//
 global.SESSION_ID = process.env.SESSION_ID || "";
-global.MONGODB = process.env.MONGODB_URI || "";
+global.MONGODB = process.env.MONGODB_URI || "mongodb+srv://Dibyenduaditya:harekrishna73@cluster0.2sxq63w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.sudo = process.env.SUDO
   ? process.env.SUDO.replace(/[\s+]/g, "")
-  : "null";
+  : "917318812338,918653805156";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "917318812338";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -27,11 +27,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`©QUEEN_ANITA-V2`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  caption: process.env.CAPTION || "⎯꯭̽👀🐼𝐀ᴅɪᴛʏᴀ-𝐗ᴅ💗🌸𓂃",
+  author: process.env.PACK_AUTHER || "[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]",
+  packname: process.env.PACK_NAME || "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ]",
+  botname: process.env.BOT_NAME || "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ]",
+  ownername: process.env.OWNER_NAME || "⎯꯭̽👀🐼𝐀ᴅɪᴛʏᴀ-𝐗ᴅ💗🌸𓂃",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -52,7 +52,7 @@ global.location = "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2";
+global.github = process.env.GITHUB || "https://github.com/dibyenduaditya";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
 global.devs = "2349066528353";
